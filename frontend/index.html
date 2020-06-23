@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>SDS</title>
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+        background-color: black;
+        display: flex;
+      }
+      #remote-video {
+        height: 80vh;
+        width: 80vw;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body></body>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+    <script src="videoListener.js"></script>
+    <script src="socketListener.js"></script>
+    <video
+      id="remote-video"
+      src="video.mp4"
+      controls="true"
+      loop="true"
+      autoplay="true"
+      muted="true"
+    ></video>
+  </body>
+</html>
