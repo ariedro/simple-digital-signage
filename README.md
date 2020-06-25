@@ -2,6 +2,8 @@
 
 This is an example of a Digital Signage software done in NodeJS
 
+A live example can be found [**here**](https://boiling-refuge-20249.herokuapp.com/)
+
 ## Install
 
 
@@ -26,8 +28,10 @@ npm run test
 
 ## Deploy
 
+This program can be deployed on any server that meets the technical requirements, to run on a normal process:
+
 ```
-// TODO
+npm run start
 ```
 
 ## Author
